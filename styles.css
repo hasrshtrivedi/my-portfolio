@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Noto+Sans+JP&family=Oleo+Script&family=Updock&display=swap');
+body{
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+  --primary-color: grey;
+  --secondary-color: purple;
+  --aliceblue-color: aliceblue;
+  --ternary-color:white;
+}
+.header {
+
+  background-color: var(--primary-color);
+    border-bottom-left-radius: 2rem;
+    margin: 0rem 1rem;
+}
+.nav-heading{
+    padding: 2rem;
+    position: absolute;
+    color: var(--ternary-color);
+}
+.header .list {
+  list-style: none;
+}
+.header .nav-list .list {
+  display: inline-block;
+}
+.nav-list {
+   
+    text-align: right;
+}
+.list{
+    padding: 2rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+nav.navbar{
+    height: 10rem;
+}
+
+/* image */
+.image-section .primary-image {
+  display: block;
+  width: 500px;
+  margin: 1rem;
+
+  
+}
+section.image-section{
+    width: max-content;
+    margin: 2rem auto;
+}
+.bold-image-heading{
+    color: var(--secondary-color);
+}
+h2.image-heading{
+    text-align: center;
+}
+
+/* sections:1 */
+.first-section {
+    box-sizing: border-box;
+    background-color: var(--aliceblue-color);
+    text-align: center;
+    margin: 2rem 2rem;
+    padding: .6rem 2rem;
+    border-radius: 9rem;
+}
+/* sections:2 */
+.second-section{
+    box-sizing: border-box;
+    background-color: var(--aliceblue-color);
+    text-align: center;
+    margin: 2rem 2rem;
+    padding: .6rem 2rem;
+    border-radius: 9rem;
+
+}
+.second-section-btn{
+    margin: 0.8rem;
+}
+/* sections:3 */
+.third-section{
+    box-sizing: border-box;
+    background-color: var(--aliceblue-color);
+    text-align: center;
+    margin: 2rem 2rem;
+    padding: .6rem 2rem;
+    border-radius: 9rem;
+
+}
+
+/* footer */
+.footer{
+    background-color: var(--primary-color);
+    border-top-right-radius: 2rem;
+    margin: 1rem;
+    
+   
+}
+.footer-unordered-list .foot-anchor{
+    text-decoration: none;
+    color: var(--ternary-color);
+}
+
+
+.footer .footer-list{
+    list-style: none;
+    padding: 2rem;
+    
+    
+}
+.footer .footer-unordered-list .footer-list{
+    display: inline;
+    
+}
+.footer-heading{
+    text-align: center;
+}
+.footer-unordered-list{
+    text-align: center;
+    
+    padding: .5rem 1rem;
+}
